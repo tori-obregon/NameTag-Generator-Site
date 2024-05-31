@@ -1,0 +1,55 @@
+body {
+    margin-top: 25%;
+    border: 1px solid black;
+}
+.headerBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.headerBar h1 {
+    font-size: 50px;
+    margin: 10px;
+}
+
+.headerBar h2 {
+    text-transform: capitalize;
+    margin: 1px
+}
+
+.nametagcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid red;
+    border-radius: 30px;
+    background-color: red;
+    margin-bottom: 50px;
+}
+
+.nametagcontainer p {
+    color:#ffffff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.nameoutputcontainer{
+    background-color: #ffffff;
+    width: 90%;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.nameoutput {
+    /* need to figure out why the font color isn't changing */
+}
+
+
+
+
