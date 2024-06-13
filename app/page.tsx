@@ -15,7 +15,7 @@ export default function Home() {
   ];
 
   
-  const generateNametag = (e: Event) => {
+  const generateNametag = (e:any) => {
     e.preventDefault();
     if(tagColorNum >= tagColorOptions.length - 1) {
       setTagColorNum(0);
